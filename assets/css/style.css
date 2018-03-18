@@ -448,14 +448,25 @@ a {
 	.pl-sm-0 {
 		padding-left: 0;
 	}
-	.plr-xs-15 {
+	/*.plr-xs-15 {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
-
+	.plr-xs-70 {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.plr-xs-100 {
+		padding-left: 100px;
+		padding-right: 100px;
+	}*/
 	.padding-sm-25 {
 		padding: 25px;
 	}
+	/*.plr-xs-50 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}*/
 	.plr-xs-sm-20 {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -480,6 +491,18 @@ a {
 	}
 	.padding-sm-25 {
 		padding: 25px;
+	}
+	.plr-xs-50 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.plr-xs-70 {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.plr-xs-100 {
+		padding-left: 100px;
+		padding-right: 100px;
 	}
 	.pb-xs-30 {
 		padding-bottom: 30px;
@@ -1086,6 +1109,11 @@ a:focus, a:hover {
 	.mainmenu ul.nav-menu-show {
 		opacity: 1;
 		visibility: visible;
+	}
+	.hide-md {
+		visibility: hidden;
+		display: none;
+		opacity: 0;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2264,6 +2292,11 @@ opacity: 0;
 	}
 
 	body .xs-hidden {
+		visibility: hidden;
+		display: none;
+		opacity: 0;
+	}
+	.show-md {
 		visibility: hidden;
 		display: none;
 		opacity: 0;
